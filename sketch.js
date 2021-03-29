@@ -81,7 +81,9 @@ function draw(){
 
     imageMode(CENTER);
     image(polygonImg,polygon.position.x,polygon.position.y,40,40);
-
+    
+    fill("white");
+    textSize(25);
     text("Score: "+score,750,40);
 
     stand1.display();
